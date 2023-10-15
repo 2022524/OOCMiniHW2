@@ -38,4 +38,33 @@ public class NewVehicle extends Vehicle implements Flyable, Sailable {
     public void landHo() {
     }
 
+    // Implementing the method : Drivable
+    @Override
+    public void accelerate(float speed) {
+    }
+
+    @Override
+    public void brake() {
+    }
+
+    @Override
+    public void turn(float angle) {
+    }
+
+    @Override
+    public float getDirection() {
+    }
+
+    @Override
+    public float getSpeed() {
+    }
+
+    @Override
+    public String getMake() {
+    }
+
+    @Override
+    public String getType() {
+    }
+    
 }
