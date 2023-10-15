@@ -19,6 +19,8 @@ public class NewVehicle extends Vehicle implements Flyable, Sailable {
     
     @Override
     public float getAltitude(){
+        
+        return 3000; // Random alltitude
     }
     
     // Implementing the method : Sailable
@@ -32,6 +34,8 @@ public class NewVehicle extends Vehicle implements Flyable, Sailable {
 
     @Override
     public boolean isSailHoisted() {
+        // returning true will mean sail is hoisted
+        return true; 
     }
 
     @Override
@@ -53,18 +57,26 @@ public class NewVehicle extends Vehicle implements Flyable, Sailable {
 
     @Override
     public float getDirection() {
+        // Not sure what to put value here
+        return 45; 
     }
 
     @Override
     public float getSpeed() {
+        // 100 kms
+        return 100;
+        
     }
 
     @Override
     public String getMake() {
+        // returning boat make
+        return "Bayliner";
     }
 
     @Override
     public String getType() {
+        // returning type of boat
+        return "Speed Boat";
     }
-    
 }
