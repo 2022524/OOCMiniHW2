@@ -20,5 +20,22 @@ public class NewVehicle extends Vehicle implements Flyable, Sailable {
     @Override
     public float getAltitude(){
     }
+    
+    // Implementing the method : Sailable
+    @Override
+    public void hoistSail() {
+    }
+
+    @Override
+    public void lowerSail() {
+    }
+
+    @Override
+    public boolean isSailHoisted() {
+    }
+
+    @Override
+    public void landHo() {
+    }
 
 }
