@@ -19,7 +19,9 @@ public class OOCMiniHW2 {
         
         // Read the variable myNewVehicle
         System.out.println(myNewVehicle);
-
+        
+        // code is outputting my file location, 
+        // dont think its neccassary to change it for this exercise
     }
     
 }
