@@ -14,7 +14,12 @@ public class OOCMiniHW2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        // Instantiating the new Object : NewVehicle
+        NewVehicle myNewVehicle = new NewVehicle();
         
+        // Read the variable myNewVehicle
+        System.out.println(myNewVehicle);
+
     }
     
 }
